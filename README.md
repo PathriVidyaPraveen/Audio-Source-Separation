@@ -76,7 +76,7 @@ Install dependencies using:
 
 ```bash
 pip install numpy scipy matplotlib soundfile
-
+```
 ---
 
 ## How to Run
@@ -87,16 +87,7 @@ pip install numpy scipy matplotlib soundfile
 
 ```bash
 python main.py
-How to Run
-
-Place input audio files inside the data/ directory.
-
-Ensure parameters in config.py match the input sampling rate.
-
-Run the main separation pipeline:
-
-python main.py
-
+```
 
 Separated audio files and visualizations will be saved to the outputs/ directory.
 
@@ -106,7 +97,9 @@ Separated audio files and visualizations will be saved to the outputs/ directory
 
 To analyze the effect of the Wiener mask exponent p, run:
 
+```bash
 python p_sweep_analysis.py
+```
 
 
 This generates plots showing:
